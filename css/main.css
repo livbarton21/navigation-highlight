@@ -27,7 +27,7 @@ h1 {
 
 .nav {
   margin: 0;
-  padding: 0;
+  padding:0;
   list-style-type: none;
   text-align: center;
 }
@@ -36,8 +36,10 @@ h1 {
   display: inline-block;
   background-color: #b2a212;
   border-radius: 10px;
-  font-size: 1em;
-  margin: .5em 1em;
+  margin-top: .8em;
+  margin-bottom: .7em;
+  font-size: 1.125em;
+  padding: 0;
 }
 
 .nav a {
@@ -56,8 +58,24 @@ h1 {
 h2{
   font-family:'Sigmar One', cursive;
   color: #cc1465;
+  font-size: 1.875rem;
 }
 
 footer {
+  text-align: center;
+  padding: 1em;
   background-color: #ffe500;
+}
+
+article {
+  font-size: 1rem;
+  padding: .2em
+  text-align: center;
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 75em;
+  text-align: center;
 }
