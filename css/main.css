@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,7 @@ html {
 body {
   margin: 0;
   color: #2f2d13;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 header {
@@ -23,30 +24,31 @@ h1 {
   text-align: center;
   margin: 0;
   font-size: 3rem;
-  padding: 0 0 .1em;
+  padding: 3;
 }
 
 .nav {
   margin: 0;
-  padding: 0;
+  padding-top: .75em;
+  padding-left: 0;
   list-style-type: none;
   text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 0 0 .55em;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .nav a {
   display: inline-block;
   background-color: #b2a212;
-  padding: .6em;
+  padding: .2em .5em .3em;
   color: #fff;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .nav a:hover {
@@ -61,24 +63,23 @@ h1 {
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
-  font-size: 1.9rem;
+  font-size: 1.875rem;
 }
 
 footer {
   text-align: center;
-  padding: 1em;
+  padding: 0 .75em;
   background-color: #ffe500;
 }
 
-article {
+main {
   font-size: 1rem;
-  padding: .2em;
+  padding: 0 .75em;
   text-align: left;
+  padding-bottom: .5em;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 75em;
-  text-align: center;
 }
